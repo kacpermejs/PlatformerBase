@@ -14,7 +14,6 @@ namespace Assets._Scripts.Player {
             base.Awake();
         }
 
-        //old
         protected override FrameInput GatherFrameInput() {
             Vector2 move = m_MoveAction.ReadValue<Vector2>();
 
